@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Part1Solution
+namespace StregsystemSolution
 {
     class Program
     {

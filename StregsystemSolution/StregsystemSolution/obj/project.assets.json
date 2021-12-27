@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\Project\\Part1\\Part1Solution\\Part1Solution\\Part1Solution.csproj",
-      "projectName": "Part1Solution",
-      "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\Project\\Part1\\Part1Solution\\Part1Solution\\Part1Solution.csproj",
+      "projectUniqueName": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\StregsystemSolution\\StregsystemSolution.csproj",
+      "projectName": "StregsystemSolution",
+      "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\StregsystemSolution\\StregsystemSolution.csproj",
       "packagesPath": "C:\\Users\\ownag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\Project\\Part1\\Part1Solution\\Part1Solution\\obj\\",
+      "outputPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\StregsystemSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ownag\\AppData\\Roaming\\NuGet\\NuGet.Config"
