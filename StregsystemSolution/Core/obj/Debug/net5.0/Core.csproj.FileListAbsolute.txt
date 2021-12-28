@@ -1,0 +1,16 @@
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\bin\Debug\net5.0\Core.exe
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\bin\Debug\net5.0\Core.runtimeconfig.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\bin\Debug\net5.0\Core.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache
