@@ -14,3 +14,8 @@ C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Control
 C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\ref\Controller.dll
 C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.pdb
 C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.genruntimeconfig.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Core.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\UserInterface.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Core.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\UserInterface.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.csproj.CopyComplete

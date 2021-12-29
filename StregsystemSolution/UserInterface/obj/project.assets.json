@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Coretemp/1.0.0": {
+      "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Coretemp.dll": {}
+          "bin/placeholder/Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Coretemp.dll": {}
+          "bin/placeholder/Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Coretemp/1.0.0": {
+    "Core/1.0.0": {
       "type": "project",
-      "path": "../Coretemp/Coretemp.csproj",
-      "msbuildProject": "../Coretemp/Coretemp.csproj"
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Coretemp >= 1.0.0"
+      "Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,8 +51,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj": {
-              "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj"
+            "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\Core.csproj"
             }
           }
         }

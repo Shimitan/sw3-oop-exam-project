@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core;
+using UserInterface;
 
 namespace Controller
 {
@@ -6,7 +7,11 @@ namespace Controller
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IStregsystem core = new Stregsystem();
+            IStregsystemUI ui = new StregsystemCLI(core);
+            StregsystemController controller = new StregsystemController(ui, core);
+            
+            ui.Start();
         }
     }
 }

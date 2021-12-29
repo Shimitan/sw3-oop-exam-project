@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Controller/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0",
+          "UserInterface": "1.0.0"
+        },
         "runtime": {
           "Controller.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
+      "UserInterface/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "runtime": {
+          "UserInterface.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Controller/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserInterface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

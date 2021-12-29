@@ -6,12 +6,12 @@ namespace UserInterface
 {
     public class StregsystemCLI : IStregsystemUI
     {
-        private IStregSystem _stregSystem;
+        private IStregsystem _stregsystem;
         private bool _running;
         
-        public StregsystemCLI(IStregSystem stregSystem)
+        public StregsystemCLI(IStregsystem stregsystem)
         {
-            _stregSystem = stregSystem;
+            _stregsystem = stregsystem;
         }
         
         public void DisplayUserNotFound(string username)
@@ -69,17 +69,17 @@ namespace UserInterface
         {
             _running = true;
             
-            // UI print
-            Console.WriteLine("List of active products (ID Product Price):\n");
-            foreach (Product product in _stregSystem.ActiveProducts)
-            {
-                Console.WriteLine(product.ProductID + " " + product.ProductName + " " + product.Price);
-            }
-            Console.WriteLine("To buy a product type your username followed by the ID of wanted product (space seperated).");
-            
             // UI input
             while (_running)
             {
+                // UI print
+                Console.WriteLine("List of active products (ID Product Price):\n");
+                foreach (Product product in _stregsystem.ActiveProducts)
+                {
+                    Console.WriteLine(product.ProductID + " " + product.ProductName + " " + product.Price);
+                }
+                Console.WriteLine("To buy a product type your username followed by the ID of wanted product (space seperated).");
+                
                 string command = Console.ReadLine();
                 Console.Clear();
                 CommandEntered?.Invoke(command);

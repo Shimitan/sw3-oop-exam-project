@@ -18,7 +18,7 @@ namespace Core.Data
         {
             List<User> userList = new List<User>();
 
-            using (TextFieldParser parser = new TextFieldParser("../../../../users.csv"))
+            using (TextFieldParser parser = new TextFieldParser("../../../../core/data/users.csv"))
             {
                 SetupReader(parser, ",");
                 while (!parser.EndOfData)
@@ -48,7 +48,7 @@ namespace Core.Data
         public List<Product> GetProducts()
         {
             List<Product> productList = new List<Product>();
-            using (TextFieldParser parser = new TextFieldParser("../../../../products.csv"))
+            using (TextFieldParser parser = new TextFieldParser("../../../../core/data/products.csv"))
             {
                 SetupReader(parser, ";");
                 while (!parser.EndOfData)
