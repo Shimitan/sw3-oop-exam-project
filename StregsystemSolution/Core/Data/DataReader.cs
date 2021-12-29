@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Microsoft.VisualBasic.FileIO;
 
-namespace StregsystemSolution.Data
+namespace Core.Data
 {
     public class DataReader : IDataReader
     {

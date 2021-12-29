@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace StregsystemSolution.Data
+namespace Core.Data
 {
     public interface IDataReader
     {

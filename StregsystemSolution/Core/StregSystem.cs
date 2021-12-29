@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using StregsystemSolution.Data;
-using StregsystemSolution.Exceptions;
-using StregsystemSolution.Transactions;
+using Core.Data;
+using Core.Exceptions;
+using Core.Transactions;
 
-namespace StregsystemSolution
+namespace Core
 {
     public class StregSystem : IStregSystem
     {

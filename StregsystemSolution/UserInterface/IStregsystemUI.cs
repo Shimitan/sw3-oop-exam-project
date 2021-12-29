@@ -1,5 +1,5 @@
-﻿using StregsystemSolution;
-using StregsystemSolution.Transactions;
+﻿using Core;
+using Core.Transactions;
 
 namespace UserInterface
 {

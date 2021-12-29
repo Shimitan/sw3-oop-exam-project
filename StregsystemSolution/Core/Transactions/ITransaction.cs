@@ -1,4 +1,4 @@
-﻿namespace StregsystemSolution.Transactions
+﻿namespace Core.Transactions
 {
     public interface ITransaction
     {

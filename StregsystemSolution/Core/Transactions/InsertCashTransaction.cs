@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StregsystemSolution.Transactions
+namespace Core.Transactions
 {
     public class InsertCashTransaction : Transaction
     {

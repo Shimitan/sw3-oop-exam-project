@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StregsystemSolution
+namespace Core
 {
     public class Product
     {

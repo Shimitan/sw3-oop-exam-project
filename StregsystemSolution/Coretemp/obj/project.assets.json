@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "Coretemp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Coretemp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Coretemp.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "Coretemp/1.0.0": {
-      "type": "project",
-      "path": "../Coretemp/Coretemp.csproj",
-      "msbuildProject": "../Coretemp/Coretemp.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "Coretemp >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\ownag\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\UserInterface\\UserInterface.csproj",
-      "projectName": "UserInterface",
-      "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\UserInterface\\UserInterface.csproj",
+      "projectUniqueName": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj",
+      "projectName": "Coretemp",
+      "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj",
       "packagesPath": "C:\\Users\\ownag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\UserInterface\\obj\\",
+      "outputPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ownag\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj": {
-              "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

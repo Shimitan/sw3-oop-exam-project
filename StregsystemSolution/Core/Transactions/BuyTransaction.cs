@@ -1,7 +1,7 @@
 ﻿using System;
-using StregsystemSolution.Exceptions;
+using Core.Exceptions;
 
-namespace StregsystemSolution.Transactions
+namespace Core.Transactions
 {
     public class BuyTransaction : Transaction
     {

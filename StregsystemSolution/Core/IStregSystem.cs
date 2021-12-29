@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using StregsystemSolution.Transactions;
+using Core.Transactions;
 
-namespace StregsystemSolution
+namespace Core
 {
     public delegate void UserBalanceNotification(User user);
     

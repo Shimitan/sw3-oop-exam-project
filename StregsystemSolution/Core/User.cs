@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace StregsystemSolution
+namespace Core
 {
     public delegate void OnUpdateBalance(User user);
     public class User : IComparable<User>

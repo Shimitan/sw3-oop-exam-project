@@ -4,14 +4,14 @@
     "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\UserInterface\\UserInterface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\Core.csproj": {
+    "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj",
+        "projectName": "Coretemp",
+        "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj",
         "packagesPath": "C:\\Users\\ownag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\obj\\",
+        "outputPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ownag\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Core\\Core.csproj"
+              "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj": {
+                "projectPath": "C:\\Users\\ownag\\Documents\\GitHub\\sw3-oop-exam-project\\StregsystemSolution\\Coretemp\\Coretemp.csproj"
               }
             }
           }
