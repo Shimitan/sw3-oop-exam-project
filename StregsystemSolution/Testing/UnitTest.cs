@@ -20,7 +20,7 @@ namespace Testing
             buyTransaction.Execute();
 
             // Assert
-            Assert.Equal(sutStartBalance - (1 * sutProduct.Price), sutUser.Balance);
+            Assert.Equal(sutStartBalance - 1 * sutProduct.Price, sutUser.Balance);
         }
     }
 }
