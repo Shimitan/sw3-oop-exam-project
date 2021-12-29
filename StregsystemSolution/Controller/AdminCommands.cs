@@ -1,5 +1,6 @@
 ﻿using System;
 using Core;
+using Core.Transactions;
 using UserInterface;
 
 namespace Controller
@@ -42,7 +43,8 @@ namespace Controller
 
         public void AddCredits(string[] args)
         {
-            _stregsystem.AddCreditsToAccount(_stregsystem.GetUserByUsername(args[1]), Convert.ToInt32(args[2]));
+            InsertCashTransaction insertCashTransaction = _stregsystem.AddCreditsToAccount(_stregsystem.GetUserByUsername(args[1]), Convert.ToInt32(args[2]));
+            insertCashTransaction.Execute();
         }
     }
 }

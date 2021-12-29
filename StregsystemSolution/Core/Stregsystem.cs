@@ -36,7 +36,7 @@ namespace Core
             return transaction;
         }
         
-        public BuyTransaction BuyProduct(User user, Product product, decimal amount)
+        public BuyTransaction BuyProduct(User user, Product product, int amount)
         {
             BuyTransaction transaction = new BuyTransaction(_transactionID, user, DateTime.Now, product, amount);
             _transactionID++;
@@ -94,7 +94,7 @@ namespace Core
         // Method to tell the user if their balance is low
         public void CheckBalance(User user)
         {
-            if (user.Balance < 20)
+            if (user.Balance < 1000)
             {
                 UserBalanceWarning?.Invoke(user);
             }

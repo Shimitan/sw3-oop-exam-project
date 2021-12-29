@@ -63,12 +63,15 @@ namespace Controller
             
             switch (splittedCommand.Length)
             {
+                // Showing user info
                 case 1: _stregsystemUI.DisplayUserInfo(user);
                     break;
                 
+                // Buying 1 product
                 case 2 : UserBuyProductCommand(user, 1, Convert.ToInt32(splittedCommand[1]));
                     break;
                 
+                // Buying >1 products
                 case 3 : UserBuyProductCommand(user, Convert.ToInt32(splittedCommand[1]), Convert.ToInt32(splittedCommand[2]));
                     break;
                 
@@ -102,7 +105,7 @@ namespace Controller
             }
             
             _stregsystem.AddTransaction(buyTransaction);
-            _stregsystemUI.DisplayUserBuysProduct(amount,buyTransaction);
+            _stregsystemUI.DisplayUserBuysProduct(amount, buyTransaction);
         }
         
     }

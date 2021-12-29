@@ -80,16 +80,15 @@ namespace UserInterface
             // UI input
             while (_running)
             {
-                
                 string command = Console.ReadLine();
-                Console.Clear();
                 CommandEntered?.Invoke(command);
             }
         }
         
         public void Close()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Program closed");
+            _running = false;
         }
         
         public event StregsystemEvent CommandEntered;

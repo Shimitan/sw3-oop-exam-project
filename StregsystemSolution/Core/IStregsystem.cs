@@ -11,7 +11,7 @@ namespace Core
     {
         IEnumerable<Product> ActiveProducts { get; } 
         InsertCashTransaction AddCreditsToAccount(User user, decimal amount); 
-        BuyTransaction BuyProduct(User user, Product product, decimal amount); 
+        BuyTransaction BuyProduct(User user, Product product, int amount); 
         Product GetProductByID(int id); 
         IEnumerable<Transaction> GetTransactions(User user, int count); 
         List<User> GetUsers(Func<User, bool> predicate); 
