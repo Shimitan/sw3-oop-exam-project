@@ -1,1 +1,1 @@
-# sw3-oop-exam-project
+Exam project 3. semester in Object Oriented Programming
