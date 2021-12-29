@@ -12,17 +12,15 @@ namespace Core.Transactions
                 throw new ProductNotActiveException(product);
             }
             Product = product;
-            _productPrice = productPrice;
         }
         
         public Product Product { get; }
-        private readonly decimal _productPrice;
 
-        public override void Execute()
+        public void Execute()
         {
-            if (Product.CanBeBoughtOnCredit || User.Balance - _productPrice >= 0)
+            if (Product.CanBeBoughtOnCredit || User.Balance - Product.Price >= 0)
             {
-                User.Balance -= _productPrice;
+                User.Balance -= Product.Price ;
             }
             else
             {

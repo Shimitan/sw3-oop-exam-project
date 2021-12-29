@@ -6,7 +6,7 @@ namespace UserInterface
     public interface IStregsystemUI
     {
         void DisplayUserNotFound(string username); 
-        void DisplayProductNotFound(string product); 
+        void DisplayProductNotFound(int product); 
         void DisplayUserInfo(User user); 
         void DisplayTooManyArgumentsError(string command); 
         void DisplayAdminCommandNotFoundMessage(string adminCommand);

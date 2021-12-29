@@ -22,7 +22,7 @@ namespace Controller
         {
             if (command == "")
             {
-                _stregsystemUI.DisplayGeneralError("Enter a valid command");
+                _stregsystemUI.DisplayGeneralError("Invalid command");
             }
             else if (command.StartsWith(":"))
             {

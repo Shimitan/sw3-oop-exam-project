@@ -47,11 +47,6 @@ namespace Controller
 
         public void CommandParse(string command)
         {
-            throw new NotImplementedException();
-        }
-        
-        public void ParseCommand(string command)
-        {
             string[] splittedCommand = command.Split(" ");
             
             User user;
@@ -85,8 +80,6 @@ namespace Controller
         private void UserBuyProductCommand(User user, int amount, int productID)
         {
             Product product;
-            BuyTransaction buyTransaction;
-
             try
             {
                 product = _stregsystem.GetProductByID(productID);
@@ -97,9 +90,19 @@ namespace Controller
                 return;
             }
 
-
-
-
+            BuyTransaction buyTransaction = _stregsystem.BuyProduct(user, product, amount);
+            try
+            {
+                buyTransaction.Execute();
+            }
+            catch (InsufficientCreditsException e)
+            {
+                _stregsystemUI.DisplayInsufficientCash(e.User, e.Product);
+                return;
+            }
+            
+            _stregsystem.AddTransaction(buyTransaction);
+            _stregsystemUI.DisplayUserBuysProduct(amount,buyTransaction);
         }
         
     }

@@ -19,7 +19,7 @@ namespace UserInterface
             Console.WriteLine("User " + username + " not found!");
         }
 
-        public void DisplayProductNotFound(string product)
+        public void DisplayProductNotFound(int product)
         {
             Console.WriteLine("Product " + product + " not found!");
         }
@@ -40,7 +40,7 @@ namespace UserInterface
 
         public void DisplayAdminCommandNotFoundMessage(string adminCommand)
         {
-            Console.WriteLine("Admin command: " + adminCommand + ", is not found!");
+            Console.WriteLine("Admin command: " + "'" + adminCommand + "'" + " is not found!");
         }
         
         // Method overload 1/2
@@ -69,16 +69,17 @@ namespace UserInterface
         {
             _running = true;
             
+            // UI print
+            Console.WriteLine("List of active products (ID Product Price):\n");
+            foreach (Product product in _stregsystem.ActiveProducts)
+            {
+                Console.WriteLine(product.ProductID + " " + product.ProductName + " " + product.Price);
+            }
+            Console.WriteLine("To buy a product type your username followed by the ID of wanted product (space seperated).");
+            
             // UI input
             while (_running)
             {
-                // UI print
-                Console.WriteLine("List of active products (ID Product Price):\n");
-                foreach (Product product in _stregsystem.ActiveProducts)
-                {
-                    Console.WriteLine(product.ProductID + " " + product.ProductName + " " + product.Price);
-                }
-                Console.WriteLine("To buy a product type your username followed by the ID of wanted product (space seperated).");
                 
                 string command = Console.ReadLine();
                 Console.Clear();
