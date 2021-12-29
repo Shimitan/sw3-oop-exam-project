@@ -1,0 +1,16 @@
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\bin\Debug\net5.0\UserInterface.exe
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\bin\Debug\net5.0\UserInterface.deps.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\bin\Debug\net5.0\UserInterface.runtimeconfig.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\bin\Debug\net5.0\UserInterface.runtimeconfig.dev.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\bin\Debug\net5.0\UserInterface.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\bin\Debug\net5.0\ref\UserInterface.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\bin\Debug\net5.0\UserInterface.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.csproj.AssemblyReference.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.AssemblyInfoInputs.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.AssemblyInfo.cs
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.csproj.CoreCompileInputs.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\ref\UserInterface.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\UserInterface\obj\Debug\net5.0\UserInterface.genruntimeconfig.cache

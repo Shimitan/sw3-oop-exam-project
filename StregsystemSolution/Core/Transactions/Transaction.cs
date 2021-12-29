@@ -1,7 +1,6 @@
 ﻿using System;
-using StregsystemSolution.Transactions;
 
-namespace StregsystemSolution
+namespace StregsystemSolution.Transactions
 {
     public abstract class Transaction : ITransaction
     {

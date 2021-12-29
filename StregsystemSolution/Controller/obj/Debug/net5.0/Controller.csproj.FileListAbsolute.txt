@@ -1,0 +1,16 @@
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Controller.exe
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Controller.deps.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Controller.runtimeconfig.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Controller.runtimeconfig.dev.json
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Controller.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\ref\Controller.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\bin\Debug\net5.0\Controller.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.csproj.AssemblyReference.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.AssemblyInfoInputs.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.AssemblyInfo.cs
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.csproj.CoreCompileInputs.cache
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\ref\Controller.dll
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.pdb
+C:\Users\ownag\Documents\GitHub\sw3-oop-exam-project\StregsystemSolution\Controller\obj\Debug\net5.0\Controller.genruntimeconfig.cache
